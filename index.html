@@ -1,44 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>kun-Blog</title>
-	<style>
-	#wrapper{width: 1300px;
-		display: flex;
-		min-height: 100vh; /*1vh表示浏览器高度的1%，100vh为浏览器高度，感觉这个挺好的*/
-	flex-direction: column;/*灵活的项垂直显示*/}
-	#content{flex: 10;}
-	#footer{height: 100px;
-		/*background-color: black;*/
-	}
-	</style>
-	<script>
-		document.getElementById("bgAudio").volume = 0.2; /*设置背景音乐的音量*/
-	</script>
+    <meta charset="UTF-8">
+    <title>kun-Blog</title>
+    <style>
+        #wrapper {
+            width: 1300px;
+            display: flex;
+            min-height: 100vh;
+            /*1vh表示浏览器高度的1%，100vh为浏览器高度，感觉这个挺好的*/
+            flex-direction: column;
+            /*灵活的项垂直显示*/
+        }
+        
+        #content {
+            flex: 10;
+        }
+        
+        #footer {
+            height: 100px;
+            /*background-color: black;*/
+        }
+    </style>
+    <script>
+        document.getElementById("bgAudio").volume = 0.2; /*设置背景音乐的音量*/
+    </script>
 
 </head>
+
 <body>
-	<audio src="https://www.bensound.com/bensound-music/bensound-summer.mp3" autoplay="autoplay" loop="loop" id="bgAudio"></audio>
-	<center>
-		<div id="wrapper">
-			<div id="header">
-				<marquee>
-					<font size="7">
-						<a href="https://wjkbfq.github.io">Blog</a>
-						<a href="https://github.com/wjkbfq">Github</a>
-						<span>Updating...</span>
-					</font>
-				</marquee>
-			</div>
-			<div id="content">
-			</div>
-			<div id="footer">
-				<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
-			</div>
-		</div>
-	</center>
+    <audio src="https://www.bensound.com/bensound-music/bensound-summer.mp3" autoplay="autoplay" loop="loop" id="bgAudio"></audio>
+    <center>
+        <div id="wrapper">
+            <div id="header">
+                <marquee>
+                    <font size="7">
+                        <a href="https://wjkbfq.github.io">Blog</a>
+                        <a href="https://github.com/wjkbfq">Github</a>
+                        <span>Updating...</span>
+                    </font>
+                </marquee>
+            </div>
+            <div id="content">
+            </div>
+            <div id="footer">
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This blog is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+					Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+            </div>
+        </div>
+    </center>
 </body>
+
 </html>
 
 <!-- 
