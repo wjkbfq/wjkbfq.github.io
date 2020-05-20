@@ -1,1 +1,1 @@
-# wjkbfq.github.io
+# [Blog k@kunn.cc](https://b.kunn.cc/)
